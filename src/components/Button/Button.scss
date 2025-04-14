@@ -1,0 +1,12 @@
+.button {
+  padding: 12px, 16px;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  background-color: #6fac2f;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 1px 5px 0 #000;
+  transition: background-color 0.2s cubic-bezier(0, 0.31 0.24 0.52) color #000;
+}

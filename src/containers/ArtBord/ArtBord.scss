@@ -1,0 +1,28 @@
+.art-board {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+
+  .art-board__navigation {
+    width: 494px;
+    display: flex;
+    align-items: flex-end;
+    margin: -8px;
+
+    .art-board-item {
+      margin: 8px;
+
+      &.item--size {
+        display: flex;
+        align-items: flex-end;
+
+        .button {
+          margin-left: 16px;
+        }
+      }
+    }
+  }
+}

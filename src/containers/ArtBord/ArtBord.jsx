@@ -1,7 +1,14 @@
 import React from "react";
+import Labyrinth from "./components/Labirinth/Labirinth";
+import Navigation from "./components/Navigation/Navigation";
+import "./ArtBord.scss";
 
-const ArtBord = () => {
-  return <div className="art-bord_wrapped">art-bord_wrapped</div>;
+export const ArtBoard = ({ children }) => {
+  return (
+    <div className="art-board">
+      <Labyrinth></Labyrinth>
+      <Navigation />
+    </div>
+  );
 };
-
-export default ArtBord;
+export default ArtBoard;

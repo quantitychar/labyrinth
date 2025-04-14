@@ -1,11 +1,11 @@
 import { useState } from "react";
-import ArtBorddddd from "./containers/ArtBord/ArtBord";
-import "./App.css";
+import ArtBord from "./containers/ArtBord/ArtBord";
 
+import "./styles/style.css";
 function App() {
   return (
     <>
-      <ArtBorddddd />
+      <ArtBord />
     </>
   );
 }

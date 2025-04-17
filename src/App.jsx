@@ -1,13 +1,8 @@
-import { useState } from "react";
-import ArtBord from "./containers/ArtBord/ArtBord";
-
+import ArtBoard from "./containers/ArtBord/ArtBord";
 import "./styles/style.css";
+
 function App() {
-  return (
-    <>
-      <ArtBord />
-    </>
-  );
+  return <ArtBoard />;
 }
 
 export default App;

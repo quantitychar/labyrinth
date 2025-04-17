@@ -1,14 +1,14 @@
 import React from "react";
-import "./Input.scss";
 import PropTypes from "prop-types";
+import "./Input.scss";
 
 const Input = (props) => {
-  const { type = "text", name, label, ...restProps } = props;
+  const { type = "text", inputRef, name, label, ...restProps } = props;
 
   return (
     <label className="input-wrapper">
       <span className="label">{label}</span>
-      <input type={type} name={name} {...restProps} />
+      <input type={type} ref={inputRef} name={name} {...restProps} />
     </label>
   );
 };

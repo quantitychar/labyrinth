@@ -1,7 +1,7 @@
 import React from "react";
 
-const Labirinth = ({ children }) => {
+const Labyrinth = ({ children }) => {
   return <div className="art-board__wrapper">{children}</div>;
 };
 
-export default Labirinth;
+export default Labyrinth;

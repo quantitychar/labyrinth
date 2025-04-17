@@ -10,4 +10,5 @@ Space.propTypes = {
   x: PropTypes.number,
   y: PropTypes.number,
 };
+
 export default Space;

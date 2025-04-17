@@ -1,14 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./Button.scss";
+
 const Button = (props) => {
-  const {
-    type = "button",
-    onClick = () => {},
-    className,
-    children,
-    ...restProps
-  } = props;
+  const { type = "button", onClick, className, children, ...restProps } = props;
 
   return (
     <button
